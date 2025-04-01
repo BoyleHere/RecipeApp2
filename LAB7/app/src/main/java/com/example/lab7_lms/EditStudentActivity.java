@@ -24,7 +24,7 @@ public class EditStudentActivity extends AppCompatActivity {
         etRoll = findViewById(R.id.etRoll);
         etName = findViewById(R.id.etName);
         etMarks = findViewById(R.id.etMarks);
-        btnSave = findViewById(R.id.btnSave);
+//        btnSave = findViewById(R.id.btnSave);
 
         dbHelper = new DatabaseHelper(this);
 
