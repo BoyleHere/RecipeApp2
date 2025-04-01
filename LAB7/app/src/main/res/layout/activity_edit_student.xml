@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Student Details"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:paddingBottom="10dp"/>
+
+    <!-- Roll Number (Disabled) -->
+    <EditText
+        android:id="@+id/etRoll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Roll Number"
+        android:enabled="false"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:background="@android:drawable/edit_text" />
+
+    <!-- Name -->
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:padding="10dp"
+        android:background="@android:drawable/edit_text"
+        android:layout_marginTop="10dp" />
+
+    <!-- Marks -->
+    <EditText
+        android:id="@+id/etMarks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Marks"
+        android:padding="10dp"
+        android:background="@android:drawable/edit_text"
+        android:layout_marginTop="10dp" />
+
+    <!-- Save Button -->
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Changes"
+        android:textSize="16sp"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
